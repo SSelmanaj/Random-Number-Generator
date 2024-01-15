@@ -2,7 +2,7 @@
 FROM openjdk:11
 
 # Set working directory
-WORKDIR /app
+WORKDIR /app     
 
 # Copy application code to the container
 COPY RandomNumberGenerator-0.0.1-SNAPSHOT.jar /app/app.jar
